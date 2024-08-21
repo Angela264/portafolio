@@ -1,0 +1,243 @@
+/* Mi paleta de colores de portafolio 
+
+    #272932 negro Raisin
+    #4D7EA8 Steel blue
+    #55D6BE Turquoise
+    #ACFCD9 Aquamarine
+    #DDDDDD PLatinum
+
+    //
+    #171A21
+    #617073
+    #7A93AC
+    #92BCEA
+    #AFB3F7
+
+*/
+
+/*Section del Header*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+body {
+  background-color: #272932;
+  color: #dddddd;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+abbr {
+  text-decoration: none !important;
+}
+
+.navbar {
+  display: flex;
+  background-color: #272932;
+  padding: 10px 50px;
+}
+
+.navbar-brand {
+  margin-right: auto;
+}
+
+.navbar-nav {
+  display: contents;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+  text-decoration: none;
+  color: #dddddd;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #55d6be;
+}
+
+.inicales {
+  font-weight: bold;
+  background: linear-gradient(45deg, #4d7ea8, #acfcd9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Clase para agregar un padding para aplicar por section*/
+.menu-option {
+  padding: 55px !important;
+}
+
+/* Section de Información personal */
+
+.perfil-section {
+  display: flex;
+  align-items: center; /* Alinea verticalmente al centro */
+  gap: 20px; /* Espacio entre la foto y la información */
+  padding: 20px;
+}
+
+.foto-perfil img {
+  width: 150px; /* Tamaño de la foto */
+  height: auto;
+  border-radius: 50%; /* Hacer la imagen circular */
+  object-fit: cover; /* Asegurar que la imagen cubra bien el espacio */
+}
+
+.info-perfil h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: left;
+}
+
+.info-perfil p {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  color: #dddddd;
+}
+
+/* Estilo de section sobre mis habilidades y conocimiento */
+
+.habilidades-section {
+  display: flex;
+  align-items: center;
+  color: #dddddd;
+  padding: 15px;
+}
+
+.habilidades-blandas {
+  /*   background-color: bisque; */
+  width: 50%;
+  color: #dddddd;
+}
+
+.conocimiento {
+  /*   background-color: rgb(162, 111, 44); */
+  width: 50%;
+}
+
+/* Estilos de section sobre mis proyectos */
+.proyectos-section {
+  /*   background-color: burlywood; */
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.format-img-proyectos {
+  color: #272932;
+  width: 30%;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.format-img-proyectos img {
+  height: 200px;
+}
+
+/* Contenido en mi footer */
+footer {
+  /* background-color: #333; */
+  color: #dddddd;
+  padding: 20px;
+  padding-bottom: 0;
+  /*text-align: center; */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.fin-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fin-footer a:hover {
+  background: linear-gradient(45deg, #4d7ea8, #acfcd9);
+  border-radius: 5px;
+}
+
+.button-enviar {
+  background: linear-gradient(45deg, #4d7ea8, #acfcd9);
+  width: 100%;
+  margin: 8px 0px;
+}
+
+/* Titulo de section*/
+.title-gradient {
+  font-size: 3em;
+  font-weight: bold;
+  background: linear-gradient(45deg, #4d7ea8, #acfcd9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 20px 0;
+}
+
+form > div {
+  max-width: 400px !important;
+}
+
+.form-control:focus {
+  color: #4d7ea8;
+  background-color: #fff;
+  border-color: #55d6be;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #4d7ea840;
+}
+
+.clase1 {
+  color: #272932;
+}
+.clase2 {
+  color: #4d7ea8;
+}
+.clase3 {
+  color: #55d6be;
+}
+.clase4 {
+  color: #acfcd9;
+}
+.clase5 {
+  color: #dddddd;
+}
+
+.magic {
+  position: absolute;
+  z-index: 999;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #4d7ea8, #55d6be 50%, #acfcd9 100%);
+  pointer-events: none;
+  animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}

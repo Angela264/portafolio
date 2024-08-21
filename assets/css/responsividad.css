@@ -1,0 +1,50 @@
+@media (max-width: 992px) {
+  .habilidades-section {
+    display: block;
+  }
+  .habilidades-blandas,
+  .conocimiento {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .perfil-section {
+    display: block;
+  }
+
+  .foto-perfil {
+    text-align: center;
+  }
+
+  .foto-perfil img {
+    width: 40%;
+  }
+
+  .title-gradient {
+    font-size: 2em;
+  }
+
+  .info-perfil h1 {
+    text-align: center;
+  }
+
+  .format-img-proyectos {
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .foto-perfil img {
+    width: 50%;
+  }
+
+  .format-img-proyectos {
+    width: 80%;
+  }
+
+  .title-gradient {
+    font-size: 1.5em;
+  }
+}
