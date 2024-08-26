@@ -54,4 +54,12 @@ $(document).ready(function () {
     if (segs % 2 === 0) $(".inicales").text(">AS");
     else $(".inicales").text(">AS_");
   }, 1000);
+
+  $("#hover-form").mouseover(function () {
+    $("#hover-form").addClass("color-fondo-formulario");
+  });
+
+  $("#hover-form").mouseout(function () {
+    $("#hover-form").removeClass("color-fondo-formulario");
+  });
 });
